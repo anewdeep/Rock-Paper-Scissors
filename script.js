@@ -24,7 +24,7 @@ function playRound(humanChoice, computerChoice) {
         if (humanChoice == 'rock') {
             if (computerChoice == 'paper') {
                 console.log("You lose! Paper beats Rock.")
-                computerChoice++;
+                computerScore++;
             } else {
                 console.log("You win! Rock beats Scissors.")
                 humanScore++;
