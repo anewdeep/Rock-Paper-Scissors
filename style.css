@@ -1,0 +1,36 @@
+body {
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #101828;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+.boundary {
+  border: 2px solid #fb64a8;
+  padding: 50px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.choice {
+  background-color: #101828;
+  color: white;
+  border: 2px solid #fb64a8;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+}
+
+#draw {
+  min-height: 1.2em;
+  display: block;
+}

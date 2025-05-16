@@ -3,10 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script.js"></script>
-    <title>Rock Paper Scissors | JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+    </style>
+    <script src="script.js" defer></script>
+    <title>Rock Paper Scissors</title>
   </head>
   <body>
-    <p>Open console to view the results of the game!</p>
+    <div class="boundary">
+      <div class="container buttons">
+        <button class="choice" id="rock">🪨</button>
+        <button class="choice" id="paper">📃</button>
+        <button class="choice" id="scissors">✂️</button>
+      </div>
+      <div class="scores">
+        <p><span id="draw"></span></p>
+        <p>🧑: <span id="human">0</span></p>
+        <p>🖥️: <span id="computer">0</span></p>
+      </div>
+    </div>
   </body>
 </html>
